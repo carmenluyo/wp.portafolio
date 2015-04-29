@@ -1,14 +1,20 @@
-#### Notes from Wordpress Theme Development course @teamtreehouse
+#### Notas para la Instalación y Ejecución de un sitio web en Wordpress
+
+__Pre Instalación__
+---
+
+1. Descargar [wordpress.org](http://wordpress.org)
+2. Descargar XAMPP para Windows o MAMP para Mac
+3. Extraer ZIP
+2. Asegurarse que el proyecto está en la carpeta: `htdocs` de XAMPP o MAMP
+1. Habilitar _APACHE_ y _MySQL_ de preferencia en puerto 8080, 443
 
 __Instalación__
 ---
 
-1. Descargar XAMPP para Windows o MAMP para Mac
-2. Habilitar _APACHE_ y _MySQL_ de preferencia en puerto 8080, 443
-3. Asegurarse que el proyecto está en la carpeta: `htdocs` de XAMPP o MAMP
-4. Ingresar a *localhost/mi_proyecto* para ver el contenido
-5. Habilitar base de datos en *localhost/phpMyAdmin* (los usuarios son _root_ y contraseña vacía)
-6. Continuar con el setup del CMS hasta ingresar al Dashboard o Escritorio
+1. Ingresar a *localhost/mi_proyecto* para ver el contenido
+4. Habilitar base de datos en *localhost/phpMyAdmin* (los usuarios son _root_ y contraseña vacía)
+5. Continuar con el setup del CMS hasta ingresar al Dashboard o Escritorio
 
 __Post-instalación__
 ---
