@@ -71,9 +71,9 @@
 	            <a href="#" class="logo"><img src="<?php bloginfo('template_directory'); ?>/app/assets/img/logo_Gus-UIXDeveloper.png" alt="Gus | UIXDeveloper" class="ignore-srcset"></a>
 	          </div>
 	          <div class="right col-sm-6">
-	            <!-- <nav>
+	            <nav>
 	              <a href="#">Blog</a>
-	            </nav> -->
+	            </nav>
 	          </div>
 	        </div>
 	      </div>
@@ -83,7 +83,7 @@
 				<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 		      <a href="#article-<?php the_ID(); ?>" class="content-item">
 		        <div class="content-item-pic">
-		          <?php the_post_thumbnail( 'medium' ); ?>
+		          <?php the_post_thumbnail( 'medium', array( 'class' => 'clase-opcional' ) ); ?>
 		        </div>
 		        <div class="content-item-meta">
 		          <div class="left">

@@ -1,6 +1,16 @@
 <?php
 
+	add_theme_support( 'menus' );
 	add_theme_support( 'post-thumbnails' );
+
+	function register_theme_menus(){
+		register_nav_menus(
+			array(
+				'main-menu' => __('Main Menu')
+				)
+		);
+	}
+	add_action('init', 'register_theme_menus');
 
 	function gus_theme_styles(){
 		wp_enqueue_style( 'ebm', get_template_directory_uri() . '/app/assets/css/ebm.css');
