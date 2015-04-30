@@ -71,9 +71,14 @@
 	            <a href="#" class="logo"><img src="<?php bloginfo('template_directory'); ?>/app/assets/img/logo_Gus-UIXDeveloper.png" alt="Gus | UIXDeveloper" class="ignore-srcset"></a>
 	          </div>
 	          <div class="right col-sm-6">
-	            <nav>
-	              <a href="#">Blog</a>
-	            </nav>
+	            <?php 
+                $defaults = array(
+                  'container' => false,
+                  'theme_location' => 'main-menu',
+                  'menu_class' => 'la-clase-que-queramos'
+                  );
+                wp_nav_menu ($defaults);
+              ?>
 	          </div>
 	        </div>
 	      </div>
