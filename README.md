@@ -54,6 +54,7 @@ __Referencia__
 ---
 
 - [Funciones para insertar en el `index.php` o en las páginas](http://codex.wordpress.org/Function_Reference)
+- [Template tags](http://codex.wordpress.org/Template_Tags)
 - [The Wordpress Loop](http://codex.wordpress.org/The_Loop)
 - [Para que el menú se active en el dashboard](http://codex.wordpress.org/Function_Reference/add_theme_support)
 - [Opciones del menú incrustado en el HTML](http://codex.wordpress.org/Function_Reference/wp_nav_menu)
